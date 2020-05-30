@@ -4,5 +4,5 @@
 
 (defn -main []
   (prof/profile
-   (core/-main "test/profile.edn"))
+   (core/-main "dev/profile.edn"))
   (prof/serve-files 8080))
