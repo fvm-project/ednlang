@@ -2,6 +2,14 @@
 
 **ednlang** is a simple stack-based concatenative language implemented using [fvm](https://github.com/fvm-project/fvm).
 
+It has the following properties:
+
+- Simple stack-based language
+- Custom ops (like `fact` above) are inlined and called at runtime
+- No recursion limit - try running the factorial program for large values
+- Code is data is code - anonymous ops can be stored and called
+- Does not require a GC, being completely stack based
+
 ## Example
 
 Here's a ednlang program that calculates and prints `factorial(5)`:
@@ -65,18 +73,6 @@ $ target/ednlang test/fact.edn
 ```
 $ lein eftest
 ```
-
-## Properties
-
-- Simple stack-based language
-- Custom ops (like `fact` above) are inlined and called at runtime
-- No recursion limit - try running the factorial program for large values
-- Code is data is code - anonymous ops can be stored and called
-- Does not require a GC, being completely stack based
-
-## Status
-
-This is a research project with rough edges - here be dragons.
 
 ## License
 
