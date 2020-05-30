@@ -18,4 +18,4 @@ jobs:
     - name: Run tests
       run: lein eftest
     - name: Check coverage
-      run: lein cloerage
+      run: lein cloverage
