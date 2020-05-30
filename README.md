@@ -68,15 +68,7 @@ $ lein eftest
 
 ## Properties
 
-### fvm
-
-- A pure Clojure library for writing JITing VMs (like RPython and Truffle/GraalVM)
-- Simple, functional interface
-- Hot loops are traced and inlined at runtime
-
-### ednlang
-
-- Simple stack-based language implemented on top of fvm
+- Simple stack-based language
 - Custom ops (like `fact` above) are inlined and called at runtime
 - No recursion limit - try running the factorial program for large values
 - Code is data is code - anonymous ops can be stored and called
