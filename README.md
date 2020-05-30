@@ -1,6 +1,6 @@
 # ednlang ![Clojure CI](https://github.com/fvm-project/ednlang/workflows/Clojure%20CI/badge.svg)
 
-**ednlang** is a simple stack-based concatenative language implemented using [fvm](https://github.com/fvm-project/fvm).
+**ednlang** is a concatenative language implemented using [fvm](https://github.com/fvm-project/fvm).
 
 It has the following properties:
 
