@@ -1,6 +1,6 @@
-# fvm ![Clojure CI](https://github.com/divs1210/fvm/workflows/Clojure%20CI/badge.svg?branch=master)
+# ednlang
 
-**fvm** is a Clojure library for writing self-optimizing interpreters.
+**ednlang** is a simple stack-based concatenative language implemented using [fvm](https://github.com/fvm-project/fvm).
 
 ## Example
 
