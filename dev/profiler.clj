@@ -1,8 +1,8 @@
 (ns profiler
   (:require [clj-async-profiler.core :as prof]
-            [fvm.core :as fvm]))
+            [ednlang.core :as core]))
 
 (defn -main []
   (prof/profile
-   (fvm/-main "test/profile.edn"))
+   (core/-main "test/profile.edn"))
   (prof/serve-files 8080))
