@@ -4,8 +4,6 @@
 
 ## Example
 
-fvm comes with an example interpreter for a simple stack-based language called **ednlang**.
-
 Here's a ednlang program that calculates and prints `factorial(5)`:
 ```clojure
 ;; import the standard library
@@ -59,7 +57,7 @@ $ ./compile
 
 Now you can do:
 ```
-$ target/fvm test/fact.edn
+$ target/ednlang test/fact.edn
 ```
 
 ## Tests
