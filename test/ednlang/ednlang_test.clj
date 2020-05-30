@@ -149,8 +149,8 @@
                (test-compiled-op 200))))
 
       (testing "performance"
-        (is (< (timing (test-compiled-op 300))
-               (timing (test-interpreted-op 300)))))))
+        (is (< (timing (test-compiled-op 3000))
+               (timing (test-interpreted-op 3000)))))))
 
   (testing "non-tail recursive ops are excluded from jit"
     (let [fact-script [{::fvm/type ::ednlang/requires
