@@ -5,8 +5,8 @@
 It has the following properties:
 
 - Simple stack-based language
-- Custom ops (like `fact` above) are inlined and called at runtime
-- No recursion limit - try running the factorial program for large values
+- Custom ops are inlined and called at runtime
+- No recursion limit
 - Code is data is code - anonymous ops can be stored and called
 - Does not require a GC, being completely stack based
 
