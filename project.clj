@@ -1,10 +1,10 @@
-(defproject fvm-project/ednlang "0.1.0-SNAPSHOT"
+(defproject fvm-project/ednlang "0.1.2"
   :description "ednlang is a simple stack-based concatenative language on top of fvm"
   :url "https://github.com/fvm-project/ednlang"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.2-alpha1"]
-                 [fvm-project/fvm "0.1.0"]]
+                 [fvm-project/fvm "0.1.2"]]
   :main ednlang.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
